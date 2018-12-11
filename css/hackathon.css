@@ -1,0 +1,210 @@
+/* ~~~~~~~~ General CSS ~~~~~~~~~ */
+
+section {
+    min-height: 90vh;
+    box-sizing: border-box;
+    background: #ff416c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+section.section-light {
+    background: #FFFFFF;
+}
+p,
+h2,
+h3,
+h4,
+h5 {
+    color: #DDDDDD;
+}
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 0.75em;
+}
+h2.text-dark,
+h3.text-dark,
+h4.text-dark,
+h5.text-dark {
+    color: #333333;
+}
+p.text-dark {
+    color: #666666;
+}
+.btn-xl {
+    color: #8a1538;
+    background-color: white;
+    border-color: white;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #8a1538;
+    background-color: #CCC;
+    border-color: #CCC;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #DDD;
+    border-color: #DDD;
+    opacity: .5;
+}
+
+/* ~~~~~~~~ Landing section ~~~~~~~~~ */
+
+.title-emphasis {
+    color: yellow;
+}
+#landing .row {
+    padding-top: 30vh;
+}
+.triangle-hacks-logo {
+    max-width: 40%;
+    height: auto;
+}
+
+/* ~~~~~~~~ Description section ~~~~~~~~~ */
+
+#description .row {
+    padding-top: 15vh;
+}
+
+/* ~~~~~~~~ Categories section ~~~~~~~~~ */
+
+#categories .row {
+    padding-top: 10vh;
+}
+.category-image {
+    width: 50%;
+    margin-bottom: 5%;
+}
+.category-description {
+    color: white;
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+/* ~~~~~~~~ FAQ Section ~~~~~~~~~ */
+
+#faq .row {
+    padding-top: 10vh;
+}
+.question {
+    text-align: left;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.answer {
+    text-align: left;
+    opacity: .85;
+    line-height: 1.5;
+}
+.faq-item {
+    background: #FFFFFF12;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+/* ~~~~~~ Schedule Section ~~~~~~~ */
+
+#schedule .row {
+    padding-top: 10vh;
+}
+.schedule-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.schedule-time-start {
+    width: 40%;
+    margin-right: 10%;
+    text-align: right;
+}
+.schedule-time-end {
+    opacity: .8;
+}
+.schedule-item-desc {
+    text-align: left;
+    width: 50%;
+}
+
+/* Large (the bootstrap size) and smaller */
+
+@media (max-width: 1200px) {}
+
+/* Medium and smaller*/
+
+@media (max-width: 992px) {
+    #description .row {
+        padding-top: 0;
+    }
+    .triangle-hacks-logo {
+        max-width: 70%;
+    }
+    #landing .row {
+        padding-top: 20vh;
+    }
+    section {
+        padding-top: 0;
+    }
+    #categories .row {
+        padding-top: 20vh;
+    }
+    .category-description {
+        text-align: left;
+    }
+}
+
+/* Small */
+
+@media (max-width: 768px) {
+    .category-image {
+        max-width: 50%;
+    }
+    .triangle-hacks-logo {
+        max-width: 80%;
+    }
+    #landing .row {
+        padding-top: 20vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #description .row {
+        padding-top: 0;
+    }
+}
