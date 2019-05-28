@@ -1,4 +1,4 @@
-// Agency Theme JavaScript
+// Agency Theme JavaScript for Triangle
 
 (function($) {
     "use strict"; // Start of use strict

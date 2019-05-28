@@ -64,9 +64,9 @@ h6 {
 	margin: 0 auto
 }
 
-.bg-light {
-	background-color: rgb(245, 245, 245)
-}
+/* .bg-red {
+	background-color: #7f2239
+} */
 
 .bg-light-gray {
 	background-color: #eee
@@ -132,9 +132,9 @@ fieldset[disabled] .btn-primary.active {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-    border-radius: 5px;
+    border-radius: 10px;
 	font-size: 18px;
-	padding: 14px 30px
+	padding: 20px 42px
 }
 
 .btn-xl:hover,
@@ -143,9 +143,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
 	color: white;
-    background-color: #9c27b0;
+    background-color: #8c239f;
     /* #9c27b0 */
-    border-color: solid #7b1fa2
+	border-color: solid #7b1fa2;
 }
 
 .btn-xl:active,
