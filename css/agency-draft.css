@@ -4,26 +4,45 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+/* May 30 Edit: About Us stripe with red background and white text; */
+/*Treats the about stripe specifically*/
+.about-heading {
+	color: rgb(243, 243, 243);
+}
+
+.about-h4 {
+	color: rgb(230, 230, 230);
+	line-height: 1.5;
+}
+
+.about-p {
+	color: rgb(223, 223, 223);
+}
+/*End of modification*/
+
+
 body {
 	overflow-x: hidden;
-	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-family: "Palatino", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+	/* font-family: "Palatino", "Helvetica Neue", Helvetica, Arial, sans-serif */
 }
 
 .text-muted {
-	color: #666
+	color: #666;
 }
 
 .text-primary {
-	color: #e91e63
+	color: #e91e63;
 }
 
 p {
 	font-size: 16px;
-	line-height: 1.75
+	line-height: 2;
 }
 
 p.large {
-	font-size: 18px
+	font-size: 18px;
 }
 
 a,
@@ -53,7 +72,7 @@ h5,
 h6 {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
-	font-weight: 700
+	font-weight: 700;
 }
 
 .rounded-circle {
@@ -64,12 +83,13 @@ h6 {
 	margin: 0 auto
 }
 
-/* .bg-red {
+.bg-red {
 	background-color: #7f2239
-} */
+}
 
 .bg-light-gray {
-	background-color: #eee
+	/* background-color: #eee */
+	background-color: #e0dede
 }
 
 .bg-darkest-gray {
@@ -133,7 +153,7 @@ fieldset[disabled] .btn-primary.active {
 	text-transform: uppercase;
 	font-weight: 700;
     border-radius: 10px;
-	font-size: 18px;
+	font-size: 19px;
 	padding: 20px 42px
 }
 
@@ -339,19 +359,21 @@ header .intro-text .intro-heading {
 		padding-bottom: 230px
 	}
 	header .intro-text .intro-lead-in {
-		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		/* font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+		font-family: "Georgia", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-style: italic;
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 40px;
-		margin-bottom: 130px;
+		margin-bottom: 110px;
 	}
 	header .intro-text .intro-heading {
-		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 48px;
+		font-weight: 300;
+		/* font-size: 48px; */
+		font-size: 58px;
 		line-height: 75px;
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 	}
 }
 
