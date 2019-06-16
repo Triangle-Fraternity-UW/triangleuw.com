@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/*June 15: Attempted to modify ul in Parents page*/
+.parent-list{
+	font-size: 16px;
+	line-height: 1.7;
+}
+
 
 /* May 30 Edit: About Us stripe with red background and white text; */
 /*Treats the about stripe specifically*/
@@ -308,7 +314,7 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
 	.navbar-custom.affix {
 		background-color: #222;
-		padding: 10px 0
+		padding: 8px 0
 	}
 	.navbar-custom.affix .navbar-brand {
 		font-size: 1.5em
