@@ -4,12 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-/*June 15: Attempted to modify ul in Parents page*/
+/*June 2019*/
 .parent-list{
 	font-size: 16px;
 	line-height: 1.7;
 }
 
+.subtitle{
+	font-size: 18px;
+}
 
 /* May 30 Edit: About Us stripe with red background and white text; */
 /*Treats the about stripe specifically*/
@@ -35,7 +38,7 @@ body {
 }
 
 .text-muted {
-	color: #666;
+	color: rgb(82, 82, 82);
 }
 
 .text-primary {
@@ -98,7 +101,7 @@ h6 {
 
 .bg-light-gray {
 	/* background-color: #eee */
-	background-color: #e0dede
+	background-color: #ececec
 }
 
 .bg-darkest-gray {
@@ -372,7 +375,6 @@ header .intro-text .intro-heading {
 		font-family: "Georgia", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-style: italic;
 		font-size: 36px;
-		letter-spacing: 1px;
 		line-height: 40px;
 		margin-bottom: 110px;
 	}
@@ -380,6 +382,7 @@ header .intro-text .intro-heading {
 		font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		font-weight: 300;
+		letter-spacing: 6px;
 		/* font-size: 48px; */
 		font-size: 60px;
 		line-height: 75px;
@@ -394,7 +397,10 @@ section {
 section h2.section-heading {
 	font-size: 40px;
 	margin-top: 15px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
+	font-family: "Open Sans", Helvetica;
+	font-weight: 400;
+	letter-spacing: 1px;
 }
 
 section h3.section-subheading {
@@ -669,8 +675,4 @@ img::selection {
 
 img::-moz-selection {
 	background: transparent
-}
-
-body {
-	webkit-tap-highlight-color: #7b1fa2
 }
