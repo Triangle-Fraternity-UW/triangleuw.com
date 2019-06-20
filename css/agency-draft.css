@@ -382,7 +382,7 @@ header .intro-text .intro-heading {
 		font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		font-weight: 300;
-		letter-spacing: 6px;
+		letter-spacing: 3px;
 		/* font-size: 48px; */
 		font-size: 60px;
 		line-height: 75px;
@@ -398,9 +398,8 @@ section h2.section-heading {
 	font-size: 40px;
 	margin-top: 15px;
 	margin-bottom: 50px;
-	font-family: "Open Sans", Helvetica;
-	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: "Montserrat", Arial;
+	font-weight: 300;
 }
 
 section h3.section-subheading {
