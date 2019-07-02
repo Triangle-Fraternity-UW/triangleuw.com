@@ -5,19 +5,86 @@
  */
 
 /*June 2019*/
+.bg-donate {
+	background: linear-gradient(to bottom, rgb(34, 34, 34) 90%, white 100%)
+}
+section h2.donateheading {
+	color: white;
+	font-size: 22px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.aboutuscover {
+	background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 65%, rgb(248,249,250) 100%),url('../img/background/membermanualcover.jpg');
+}
+.ourmencover {
+	background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 60%, rgb(248,249,250) 100%),url('../img/background/member-pin-big.jpg');
+}
+.indexcover {
+	background-image: url('../img/header-bg.jpg');
+}
+@media(min-width:768px) {
+	header .aboutus-text {
+		padding-top: 180px;
+		padding-bottom: 120px;
+	}
+	header .aboutus-text .aboutus-heading {
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 50px;
+		line-height: 40px;
+		margin-bottom: 50px;
+		letter-spacing: 1px;
+	}
+	header .aboutus-text .aboutus-subheading {
+		font-size: 16px;
+		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: none;
+		font-style: italic;
+		font-weight: 400;
+		margin-bottom: 30px
+	}
+	header .aboutus-text .aboutus-division{
+		color: white;
+		padding: 0.8em 0.8em;
+	}
+	header .options:hover {
+		color: #9c27b0;
+	}
+}
+.about-button {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.btn-about {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+}
+.btn-about-primary {
+  border-color: white;
+  color: white;
+}
+.btn-about-primary:hover {
+  background-color: white;
+  color: #7f2239;
+}
 .parent-list{
 	font-size: 16px;
 	line-height: 1.7;
 }
-
 .subtitle{
 	font-size: 18px;
 }
-
 .top-row {
-	padding-top: 30px;
+	padding-top: 20px;
 }
-
 /* May 30 Edit: About Us stripe with red background and white text; */
 /*Treats the about stripe specifically*/
 .about-heading {
@@ -26,14 +93,15 @@
 
 .about-h4 {
 	color: rgb(230, 230, 230);
+	font-size: 22px;
 	line-height: 1.5;
 }
 
 .about-p {
 	color: rgb(223, 223, 223);
+	font-size: 16px;
 }
 /*End of modification*/
-
 
 body {
 	overflow-x: hidden;
@@ -42,7 +110,7 @@ body {
 }
 
 .text-muted {
-	color: rgb(82, 82, 82);
+	color: rgb(66, 66, 66);
 }
 
 .text-primary {
@@ -74,7 +142,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: #9c27b0
+	color: #9c27b0;
 }
 
 h4 {
@@ -100,15 +168,15 @@ h6 {
 }
 
 .bg-red {
-	background-color: #7f2239
+	background-color: #7f2239;
 }
 
 .bg-light-gray {
-	background-color: #ebebeb
+	background-color: rgb(248,249,250);
 }
 
 .bg-darkest-gray {
-	background-color: #222
+	background-color: #222;
 }
 
 .btn-primary {
@@ -136,7 +204,7 @@ h6 {
 	background-image: none
 }
 
-.btn-primary.disabled,
+/* .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
@@ -153,7 +221,7 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
 	background-color: #7b1fa2;
 	border-color: #7b1fa2
-}
+} */
 
 .btn-primary .badge {
 	color: #7b1fa2;
@@ -169,7 +237,7 @@ fieldset[disabled] .btn-primary.active {
 	font-weight: 700;
     border-radius: 10px;
 	font-size: 19px;
-	padding: 20px 42px
+	padding: 18px 30px
 }
 
 .btn-xl:hover,
@@ -189,7 +257,7 @@ fieldset[disabled] .btn-primary.active {
 	background-image: none
 }
 
-.btn-xl.disabled,
+/* .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
 .btn-xl.disabled:hover,
@@ -206,7 +274,7 @@ fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl.active {
 	background-color: #7b1fa2;
 	border-color: #7b1fa2
-}
+} */
 
 .btn-xl .badge {
 	color: #7b1fa2;
@@ -292,11 +360,11 @@ fieldset[disabled] .btn-xl.active {
 
 .team-member p {
 	margin-top: 0;
-	line-height: 1.5em
+	line-height: 1.5em;
 }
 
 .team-member p.desc {
-	text-align: left
+	text-align: left;
 }
 
 @media(min-width:768px) {
@@ -320,15 +388,14 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
 	.navbar-custom.affix {
 		background-color: #222;
-		padding: 8px 0
+		padding: 1px 0;
 	}
 	.navbar-custom.affix .navbar-brand {
-		font-size: 1.5em
+		font-size: 1.3em
 	}
 }
 
 header {
-	background-image: url('../img/header-bg.jpg');
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -374,7 +441,6 @@ header .intro-text .intro-heading {
 		padding-bottom: 230px
 	}
 	header .intro-text .intro-lead-in {
-		/* font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 		font-family: "Georgia", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-style: italic;
 		font-size: 36px;
@@ -399,7 +465,7 @@ section {
 section h2.section-heading {
 	font-size: 40px;
 	margin-top: 15px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	font-family: "Montserrat", Arial;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -411,7 +477,11 @@ section h3.section-subheading {
 	text-transform: none;
 	font-style: italic;
 	font-weight: 400;
-	margin-bottom: 75px
+	margin-bottom: 50px
+}
+
+h4.section-subheading {
+	font-size: 20px;
 }
 
 @media(min-width:768px) {
@@ -521,15 +591,22 @@ section#contact .text-danger {
 }
 
 footer {
-	padding: 8px 0;
+	padding: 10px 0;
 	text-align: center
 }
 
-footer span.copyright {
+footer span.copyright, a.copyright {
+	color: black;
 	line-height: 40px;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	text-transform: none
+}
+a.copyright {
+	font-size: 17px;
+}
+a.copyright:hover {
+	color: purple;
 }
 
 footer ul.quicklinks {
