@@ -17,7 +17,7 @@ section h2.donateheading {
 	letter-spacing: 1px;
 }
 .aboutuscover {
-	background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 65%, rgb(248,249,250) 100%),url('../img/background/membermanualcover.jpg');
+	background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 65%, #7f2239 100%),url('../img/background/membermanualcover.jpg');
 }
 .ourmencover {
 	background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 60%, rgb(248,249,250) 100%),url('../img/background/member-pin-big.jpg');
