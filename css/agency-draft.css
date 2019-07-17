@@ -185,8 +185,8 @@ h6 {
 
 .btn-primary {
 	color: white;
-	background-color: #7b1fa2;
-    border-color: #7b1fa2;
+	background-color: #7f2239;
+    border-color: #7f2239;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700
@@ -198,8 +198,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
 	color: white;
-	background-color: #9c27b0;
-	border-color: #7b1fa2
+	background-color: #7f2239;
+	border-color: #7f2239
 }
 
 .btn-primary:active,
@@ -234,8 +234,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     color: white;
-    background-color: #7b1fa2; 
-    border-color: #7b1fa2;
+    background-color: #7f2239; 
+    border-color: #7f2239;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -250,9 +250,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
 	color: white;
-    background-color: #8c239f;
+    background-color: #a72e4c;
     /* #9c27b0 */
-	border-color: solid #7b1fa2;
+	border-color: solid #a72e4c;
 }
 
 .btn-xl:active,
