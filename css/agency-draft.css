@@ -7,9 +7,16 @@
 /* .indexbutton {
 	color: 
 } */
+.presidentletter {
+	margin-top: 20px;
+	line-height: 2
+}
+.parentsp1 {
+	font-size: 17px
+}
 .text-li {
 	font-size: 16px;
-	line-height: 2;
+	line-height: 2
 }
 /*June 2019*/
 section h2.donateheading {
@@ -118,7 +125,7 @@ body {
 }
 
 .text-primary {
-	color: #e91e63;
+	color: #7f2239;
 }
 
 p {
@@ -146,7 +153,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: #9c27b0;
+	color: #7f2239;
 }
 
 h4 {
@@ -228,7 +235,7 @@ fieldset[disabled] .btn-primary.active {
 } */
 
 .btn-primary .badge {
-	color: #7b1fa2;
+	color: #7f2239;
 	background-color: white
 }
 
@@ -741,12 +748,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
 	text-shadow: none;
-	background: #7b1fa2
+	background: #7f2239
 }
 
 ::selection {
 	text-shadow: none;
-	background: #7b1fa2
+	background: #7f2239
 }
 
 img::-moz-selection {
