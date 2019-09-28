@@ -7,6 +7,12 @@
 /* .indexbutton {
 	color: 
 } */
+.main-text {
+	margin-top: 50px;
+}
+.video {
+	margin-bottom: 30px;
+}
 .presidentletter {
 	margin-top: 20px;
 	line-height: 2
@@ -98,17 +104,17 @@ section h2.donateheading {
 }
 /* May 30 Edit: About Us stripe with red background and white text; */
 /*Treats the about stripe specifically*/
-.about-heading {
+.white-heading {
 	color: rgb(243, 243, 243);
 }
 
-.about-h4 {
+.white-h4 {
 	color: rgb(230, 230, 230);
 	font-size: 22px;
 	line-height: 1.5;
 }
 
-.about-p {
+.white-p {
 	color: rgb(223, 223, 223);
 	font-size: 16px;
 }
@@ -469,9 +475,9 @@ header .intro-text .intro-heading {
 	}
 }
 
-section {
+/* section {
 	padding: 100px 0;
-}
+} */
 
 section h2.section-heading {
 	font-size: 40px;
