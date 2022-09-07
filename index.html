@@ -64,6 +64,15 @@
         .form-control::placeholder {
             color: #777 !important;
         }
+        .container > .navbar-header {
+            margin-top: 10px; 
+            margin-bottom: 8px; 
+            margin-left: 0;
+        }
+        .container > .collapse {
+            margin-top: 10px; 
+            margin-bottom: 8px; 
+        }
     </style>
 
 </head>
@@ -73,7 +82,7 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll"> <!-- Custom margin-left: 0; to override margin-left: -15px; from .container > .navbar-header; will be right next to left edge of screen on small screens. Margin top and bottom to give breathing room for logo. -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
@@ -119,10 +128,11 @@
             <div class="intro-text">
                 <div class="intro-heading">Triangle Fraternity</div>
                 <div class="intro-lead-in">A fraternity of engineers, architects, and scientists</div>
+
                 <!-- <div class="intro-lead-in">Winter Rush is happening!</div> -->
-                <!-- <a class="js-scroll-trigger btn btn-xl btn-primary" href="#about">Who are we?</a> -->
-                <!--<a class="js-scroll-trigger btn btn-xl btn-primary" href="temp_rush.html">read our updated covid-19
-                    info</a>-->
+                <a class="js-scroll-trigger btn btn-xl btn-primary" href="rush.html" style = "margin-bottom: 7px;">Fall 22 Rush</a>
+                <a class="js-scroll-trigger btn btn-xl btn-primary" href="https://tinyurl.com/TriangleUW-InterestForm" style = "margin-bottom: 7px;">Rush Interest Form</a>
+
             </div>
         </div>
     </header>
@@ -208,7 +218,7 @@
                         see what we've been up to!</p>
 
                     <h4>Is there a living requirement if I join?</h4>
-                    <p>No. We do not currently have a chapter house so there is no requirement.</p>
+                    <p>No, but we collectively rent out a house close to UW that is encouraged for members to live at. Rent prices tend to be cheaper at the house than at apartments or via school housing, with a great location, larger room sizes, and more.</p>
 
                     <h4>Do we haze?</h4>
                     <p><strong>No, we do not haze.</strong> We believe hazing is morally wrong. Our goal is to better
@@ -219,9 +229,8 @@
                         always yours.
                         If you ever feel uncomfortable at one of our events, please don't be afraid to talk to one of our members about it!</p>
 
-                    <h4>What are your greek letters?</h4>
-                    <p>Triangle is one out of a few fraternities that does not use greek letters. We use the delta T as our
-                        symbol.</p>
+                    <h4>What are your Greek letters?</h4>
+                    <p>Triangle is one out of a few fraternities that does not use greek letters. We use the delta T as our symbol.</p>
                 </div>
             </div>
         </div>
