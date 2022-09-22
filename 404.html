@@ -64,6 +64,15 @@
         .form-control::placeholder {
             color: #777 !important;
         }
+        /*.container > .navbar-header {
+            margin-top: 10px; 
+            margin-bottom: 8px; 
+            margin-left: 0;
+        }
+        .container > .collapse {
+            margin-top: 10px; 
+            margin-bottom: 8px; 
+        }*/
     </style>
 
 </head>
@@ -73,7 +82,7 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll"> <!-- Custom margin-left: 0; to override margin-left: -15px; from .container > .navbar-header; will be right next to left edge of screen on small screens. Margin top and bottom to give breathing room for logo. -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
@@ -119,11 +128,11 @@
             <div class="intro-text">
                 <div class="intro-heading">Triangle Fraternity</div>
                 <div class="intro-lead-in">A fraternity of engineers, architects, and scientists</div>
-                <div class="intro-lead-in">404 - Page Not Found</div>
+
                 <!-- <div class="intro-lead-in">Winter Rush is happening!</div> -->
-                <!-- <a class="js-scroll-trigger btn btn-xl btn-primary" href="#about">Who are we?</a> -->
-                <!--<a class="js-scroll-trigger btn btn-xl btn-primary" href="temp_rush.html">read our updated covid-19
-                    info</a>-->
+                <a class="js-scroll-trigger btn btn-xl btn-primary" href="rush.html" style = "margin-bottom: 7px;">Fall 22 Rush</a>
+                <a class="js-scroll-trigger btn btn-xl btn-primary" href="https://tinyurl.com/TriangleUW-InterestForm" style = "margin-bottom: 7px;">Rush Interest Form</a>
+
             </div>
         </div>
     </header>
@@ -147,7 +156,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="white-h4">University of Washington Triangle history</h4>
+                        <h4 class="white-h4">University of Washington Triangle</h4>
                         <p class="white-p">Formed in 2017, our group is the only STEM exclusive social fraternity at the UW Seattle
                             campus. Our aim as a chapter is to promote academic growth and increase social interactions
                             between the different STEM fields, thereby encouraging interdepartmental relations between
@@ -209,7 +218,7 @@
                         see what we've been up to!</p>
 
                     <h4>Is there a living requirement if I join?</h4>
-                    <p>No. We do not currently have a chapter house so there is no requirement.</p>
+                    <p>No, but we collectively rent out a house close to UW that is encouraged for members to live at. Rent prices tend to be cheaper at the house than at apartments or via school housing, with a great location, larger room sizes, and more.</p>
 
                     <h4>Do we haze?</h4>
                     <p><strong>No, we do not haze.</strong> We believe hazing is morally wrong. Our goal is to better
@@ -220,9 +229,8 @@
                         always yours.
                         If you ever feel uncomfortable at one of our events, please don't be afraid to talk to one of our members about it!</p>
 
-                    <h4>What are your greek letters?</h4>
-                    <p>Triangle is one out of a few fraternities that does not use greek letters. We use the delta T as our
-                        symbol.</p>
+                    <h4>What are your Greek letters?</h4>
+                    <p>Triangle is one out of a few fraternities that does not use greek letters. We use the delta T as our symbol.</p>
                 </div>
             </div>
         </div>
@@ -232,7 +240,7 @@
     <section id="gallery">
         <div style="margin: 0 15%">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Recent Activities</h2>
+                <h2 class="section-heading">Photo Archive</h2>
             </div>
             <div class="row text-center">
                 <div class="col-lg-8 col-lg-offset-2 section-subheading">
@@ -244,6 +252,46 @@
             </div>
             <div class="tz-gallery text-center">
                 <div class="row">
+
+                    <!-- Row of three -->
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" data-caption="Our Zeta Class, initiated!"
+                            href="img/events/zeta.jpg">
+                            <img src="img/events/zeta.jpg" alt="pumpkin">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/events/zeta-goofy.jpg" data-caption="Our Zeta Class, initiated, and a little more fun!">
+                            <img src="img/events/zeta-goofy.jpg" alt="Study Session">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" data-caption="Game Night, Playing Pool @ The Hub, UW"
+                            href="img/events/pool.jpeg">
+                            <img src="img/events/pool.jpeg" alt="pumpkin">
+                        </a>
+                    </div>
+
+                    <!-- End row -->
+
+                    <!-- Row of three -->
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/events/bar.jpeg" data-caption="Alumni Night in Capitol Hill!">
+                            <img src="img/events/bar.jpeg" alt="Study Session">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/eboard2223/front.JPG"
+                            data-caption="Executive Board 202">
+                            <img src="img/eboard2223/front.JPG" alt="Executive Board 2022-2023">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" data-caption="Brothers enjoying the snow"
+                            href="img/events/snow.jpeg">
+                            <img src="img/events/snow.jpeg" alt="pumpkin">
+                        </a>
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <a class="lightbox" href="img/events/ltw20.jpg"
@@ -280,8 +328,8 @@
                     </div>
 
                     <div class="col-sm-6 col-md-4">
-                        <a class="lightbox" data-caption="Golden Garden Trip" href="img/events/goldengarden19sp.jpg">
-                            <img src="img/events/thumb/goldengarden19sp.jpg" alt="Golden Garden">
+                        <a class="lightbox" data-caption="Golden Garden Trip" href="img/events/goldengarden20su.jpg">
+                            <img src="img/events/goldengarden20su.jpg" alt="Golden Garden">
                         </a>
                     </div>
 
@@ -309,6 +357,138 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!--  Executive Board  -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Executive Board</h2>
+                    <h3 class="section-subheading">Meet our officers!</h3>
+                </div>
+            </div>
+
+            <div class="row">
+            	<div class="col-sm-6">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Dane.jpg" alt="Ryan Dulong">
+                        <h4>Dane Bowman-Weston</h4>
+                        <p class="text-muted">President</p>
+                        <p class="text-muted desc">Dane is a junior from Tacoma, WA and is the current President. He is majoring in Electrical Engineering and plans to employ his degree within the medical-technologies field. In his free time, Dane enjoys designing tattoo art, listening to music and snowboarding (in the few months that Washington actually gets snow).
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Soren.jpg" alt="Ryan Dulong">
+                        <h4>Soren Dahl</h4>
+                        <p class="text-muted">Internal VP</p>
+                        <p class="text-muted desc">Soren is a senior studying Computer Science, with a minor in Physics. He is currently the Traditions Vice President and Brotherhood Vice President. He was born and raised in Seattle, and went to Garfield High School. In his free time he enjoys playing Ultimate Frisbee for the UW Sundodgers, reading science fiction, and hanging out with brothers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Julian-1.jpg" alt="Ryan Dulong">
+                        <h4>Julian Violette</h4>
+                        <p class="text-muted">External VP</p>
+                        <p class="text-muted desc">Julian is a sophomore from Southern California and is the External Vice President this year. Julian hopes to connect Triangle with larger organizations and help grow the chapter’s notoriety in the Seattle area. Julian enjoys hiking, ice hockey, and hanging out with friends.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Beau.jpg" alt="Ryan Dulong">
+                        <h4>Beau Lonnquist</h4>
+                        <p class="text-muted">Recruitment VP</p>
+                        <p class="text-muted desc">Beau is a sophomore from Portland, OR, and the current Recruitment Vice President. He is majoring in Engineering and hopes to eventually apply his skills in the healthcare sector. Whether it’s going for a hike, playing pick-up basketball, or competing in a triathlon, he loves to be active. He also enjoys traveling, tabletop games, and exploring Seattle. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Leon.jpg" alt="Ryan Dulong">
+                        <h4>Leon Leibmann</h4>
+                        <p class="text-muted">Adminstrative VP</p>
+                        <p class="text-muted desc">Leon Leibmann is a sophomore majoring in computer science and is the current Administrative and Financial vice president. He comes from Redmond, WA where he enjoys the many nearby parks, playing hours of PVP video games and starting projects he knows he won't finish.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="row">
+
+            	<div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard3/ryan.jpg" alt="Ryan's Face">
+                        <h4>Ryan Huang</h4>
+                        <p class="text-muted">President</p>
+                        <p class="text-muted desc">Ryan is the President of Triangle Fraternity at the UW. He is a
+                            junior studying Informatics with a
+                            concentration in cybersecurity. Originally from Los Angeles, California, he's a perpetual
+                            sun-seeker and a
+                            professional guitar noodler. Ryan has devoted his time in Triangle to bettering the
+                            brotherhood, and will do
+                            everything he can to best serve his brothers.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard3/arvean.jpg" alt="Arvean's Face">
+                        <h4>Arvean Labib</h4>
+                        <p class="text-muted">External VP</p>
+                        <p class="text-muted desc">Hailing from Olympia, WA, Arvean Labib is our current External Vice President. As an Aeronautical and Astronautical Engineering, he is determined to build technology to prove the existence of extraterrestrial beings. Outside of space, he loves hot weather, the sun, music, and playing sports. Grab some kool-aid and chill with him. </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard3/daniel.jpg" alt="Daniel's Face">
+                        <h4>Daniel Shin</h4>
+                        <p class="text-muted">Recruitment VP</p>
+                        <p class="text-muted desc">Daniel is the current Recruitment Vice President, and is a sophomore
+                            intending to major in Bioengineering. From Bellevue, Washington, Daniel loves the outdoors,
+                            playing the guitar and cello, and skiing. With a constant need for coffee, he is always down
+                            to grab some Starbucks with you once this pandemic is over!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard3/shaurya.JPG" alt="Shaurya's Face">
+                        <h4>Shaurya Tathgir</h4>
+                        <p class="text-muted">Financial VP</p>
+                        <p class="text-muted desc">Shaurya Tathgir is a sophomore in the Applied Mathematics department with a major in Computational Finance and Risk Management; additionally, he intends on pursuing econometrics as a second major. Shaurya is from Dallas, but has lived all over the world and loves to travel. He also enjoys road cycling and listening to music on tube amplifiers.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>-->
+    </section>
+
+    <!--  Brother of the Quarter  -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Brother of the Quarter</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/eboard2223/Soren-sq-alt.jpg" alt="Soren Dahl">
+                        <h4>Soren Dahl</h4>
+                        <p class="text-muted">Internal VP</p>
+                        <p class="text-muted desc" style = "text-align: center;">“As a new executive board member, Soren is known for consistently stepping up to the plate. We're excited to see the fresh initiatives he is at the helm of, along with what he will do throughout the school year. As a brother, Soren has been great to see at our events and catch up with, such as to hear about his stellar ultimate frisbee performances. Thank you Soren!”
+                        </p>
+                    </div>
+                </div>
+
+            </div>
     </section>
 
     <!-- Contact Section -->
@@ -360,19 +540,6 @@
                             </div>
                         </form>
                     </div>
-                    <!--<div class="col-lg-12">
-                        <h2 class="donateheading text-center">Donate to our Chapter Endowment Fund</h2>
-                    </div>
-                    <!~~ <h3 class="">Donate to our Chapter Endowment Fund</p> ~~>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="encrypted"
-                            value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                            border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                            height="1">
-                    </form>-->
                 </div>
             </div>
         </div>
