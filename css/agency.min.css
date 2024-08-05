@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.square {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
 .container > .navbar-header {
             margin-top: 10px; 
             margin-bottom: 8px; 
